@@ -22,7 +22,7 @@ jobs:
           npm install
           npm run compile
           npm run build
-          cp Backend/dist/src/index.js Frontend/
+          
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
